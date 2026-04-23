@@ -3,7 +3,14 @@ import "./MacWindow.scss"
 
 function MacWindow({children,width,height}) {
   return (
-    <Rnd >
+    <Rnd 
+    default={{
+      width:"40vw",
+      height:"60vh",
+      x:400,
+      y:200,
+
+    }}>
       <div className="window" width={width} height={height}>
         <div className="title-bar">
             <div className="three-dot">
