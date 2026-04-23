@@ -13,6 +13,7 @@
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
     "react-rnd": "^10.5.3",
+    "remixicon": "^4.9.1",
     "sass": "^1.98.0"
   },
   "devDependencies": {

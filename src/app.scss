@@ -10,14 +10,16 @@ body,
   width: 100%;
   height: 100%;
   background: rgb(30, 30, 30);
+  overflow:hidden;
 }
 
 
 main{
   width:100%;
   height:100%;
-  background: url("/walpaper-4.png");
+  background: url("/public/walpper-1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+
 }

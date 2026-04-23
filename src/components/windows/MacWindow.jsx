@@ -1,10 +1,10 @@
 import { Rnd } from "react-rnd"
 import "./MacWindow.scss"
 
-function MacWindow({children}) {
+function MacWindow({children,width,height}) {
   return (
-    <Rnd>
-      <div className="window">
+    <Rnd >
+      <div className="window" width={width} height={height}>
         <div className="title-bar">
             <div className="three-dot">
               <div className="dot red"></div>

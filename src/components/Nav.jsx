@@ -31,7 +31,7 @@ function Nav() {
           <img src="/nav-icon/wifi.svg" alt="wifi icon" />
         </div>
   <div className="nav-item">
-            <p><DateTime /></p>
+            <DateTime />
           </div>
       </div>
 

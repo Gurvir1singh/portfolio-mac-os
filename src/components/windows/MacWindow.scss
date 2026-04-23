@@ -1,39 +1,52 @@
-.window{
-    height:500px;
+.window {
+    background: #030303d7;
+
+    border-radius: .75rem;
+    // padding-bottom: -.5rem;
+    cursor: default;
+    display: flex;
+    flex-direction: column;
     width:700px;
-    background: #030303b4;
-    border:1px solid white;border-radius:.75rem;
-    
-    padding-bottom:-.5rem;
-  
-    
-    .title-bar{
+    height:500px;
+
+
+    .title-bar {
         display: flex;
-        gap:1rem;
-        padding-block:.4rem;
-        padding-inline:.5rem;
-        border-bottom:1px solid white;
-        .three-dot{
-            display:flex;gap:.3rem;
-            .dot{
-                width:1rem;
-                height:1rem;
-              border-radius:50%;;
+        gap: 1rem;
+        padding-block: .4rem;
+        padding-inline: .5rem;
+        border-bottom: 1px solid white;
+
+        .three-dot {
+            display: flex;
+            gap: .3rem;
+
+            .dot {
+                width: 1rem;
+                height: 1rem;
+                border-radius: 50%;
+                
             }
-            .red{
+
+            .red {
                 background: rgb(226, 39, 39);
             }
-            .yellow{
+
+            .yellow {
                 background: rgb(223, 223, 39);
             }
-            .green{
+
+            .green {
                 background: rgb(17, 201, 17);
             }
         }
     }
 
-    .window-content{
-        padding-inline: .5rem;
-        padding-block: .5rem;
+    .window-content {
+      
+       padding-bottom:2rem;
+        height:100%;
+        
+     
     }
 }
