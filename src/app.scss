@@ -21,20 +21,9 @@ main{
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
+  position: relative;
+  overflow: hidden;
+  
 
-     ::-webkit-scrollbar {
-        width: 0.5rem;
-        height: .5rem;
-        padding: 1rem;
-    }
-
-    ::-webkit-scrollbar-track {
-        border-radius: 1rem;
-        background: rgb(58, 58, 58);
-    }
-
-    ::-webkit-scrollbar-thumb {
-        border-radius: 1rem;
-        background: rgb(128, 128, 128);
-    }
+    
 }
