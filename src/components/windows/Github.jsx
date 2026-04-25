@@ -19,8 +19,8 @@ const GitCard = ({data = { id: 1, image: "", title: "", description: "", tags: [
                 })}
             </div>
             <div className="links">
-                <a className="repoLink link" href={data.repoLink}><i class="ri-git-repository-line"></i>Repo</a>
-                <a className="repoLink link" href={data.demoLink}><i class="ri-share-box-line"></i>Demo</a>
+                <a className="repoLink link" href={data.repoLink}><i className="ri-git-repository-line"></i>Repo</a>
+                <a className="repoLink link" href={data.demoLink}><i className="ri-share-box-line"></i>Demo</a>
             </div>
 
         </div>
@@ -28,9 +28,9 @@ const GitCard = ({data = { id: 1, image: "", title: "", description: "", tags: [
 
 
 }
-function Github() {
+function Github( {setwindowStatus,window,windowName} ) {
     return (
-        <MacWindow>
+        <MacWindow setwindowStatus={setwindowStatus} window={window} windowName={windowName}>
             <div className="cards">
                 {GithubData.map((item, index) => {
                     return <GitCard key={index} data={item} />

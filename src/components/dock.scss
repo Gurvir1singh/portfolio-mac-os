@@ -13,7 +13,8 @@
   .icon {
     padding: 0.45rem;
     border-radius: 0.25rem;
-    width:3.7rem;
+    width:2.7rem;
+    height: 2.7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,7 +41,7 @@
   }
 
   .icon:hover{
-    transform: scale(1.2) translateY(-30%);
+    transform: scale(1.2) translateY(-40%);
    
   }
   .icon:hover+.icon,

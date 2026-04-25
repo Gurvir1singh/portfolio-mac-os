@@ -1,0 +1,13 @@
+.spotify-window{
+    height:100%;
+    overflow: auto;
+    iframe{
+ 
+        width:100%;
+        min-height:100% ;
+
+        .TrackList_wrapper__H3yYt::-webkit-slider-thumb{
+                background: #cc2222 !important;
+        }
+    }
+}
